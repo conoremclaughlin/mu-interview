@@ -15,8 +15,8 @@
   -o-transition: background-color 0.3s; /* Opera */ 
 }
 
-.event h5 {
-  overflow: hidden;
+.event header {
+  height: 20px;
   text-overflow: ellipsis;
 }
 
