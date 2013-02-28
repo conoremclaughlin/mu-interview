@@ -1,0 +1,52 @@
+/* mu css stylesheet */
+
+.event {
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+  width: 260px;
+  height: 170px;
+  border-bottom: 1px solid #DDD;
+  background-color: #EEE;
+
+  transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s; /* Firefox 4 */
+  -webkit-transition: background-color 0.3s; /* Safari and Chrome */
+  -o-transition: background-color 0.3s; /* Opera */ 
+}
+
+.event h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event .btn {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.event .well {
+  overflow: auto;
+  color: #000;
+}
+
+.well {
+  max-height: 70px;
+}
+
+.favorite {
+  background-color: #e51937;
+  color: #fff;
+}
+
+/* no content yet to calculate the height, need to force it down */
+.loader {
+  position: relative;
+  left: 50%;
+  top: 150px;
+}
+
+.rounded-corners {
+  border-radius: 5px;
+}

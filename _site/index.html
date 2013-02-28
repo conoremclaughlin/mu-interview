@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>have you got the right stuff?</title>
+
+    <!-- mustache templates -->
+    <script type="text/template" id="template-favorites">var favoriteTemplate = "
+<article class="favorite">
+   <header>
+     <div></div>
+     <div></div>
+     <button style="background-image: star.."></button>
+   </header>
+
+   <div class="body">
+     <div> </div>
+   </div>
+
+   </div> 
+     <footer>
+          <date></date>
+          <div class="headcount"></div>
+     </footer>
+</article>
+"</script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="assets/css/mu.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <h3>Sup in the 10012?</h3>
+      <button class="btn events-btn">find out!</button>
+    </div>
+    <div class="span10">
+      <section class="events"></section>
+    </div>
+  </div>
+</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/vendor/jquery.mustache.js"></script>
+    <script src="assets/js/mu.js"></script>
+  </body>
+</html>
