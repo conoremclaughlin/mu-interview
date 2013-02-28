@@ -18,7 +18,7 @@ $(function() {
             // parse the UTC timecodes into something readable
             // TODO: find better solution, can't seem to register function helpers with mustache
             for (var index in data.results) {
-                data.results[index].time = new Date(data.results[index].time).toDateString();
+                data.results[index].time = new Date(data.results[index].time).toLocaleString();
             }
 
             $events.html($.mustache(favoriteTemplate, { 'event': data.results }));
